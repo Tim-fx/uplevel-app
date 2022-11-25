@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
@@ -11,7 +9,24 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1 className='text-3xl'>Uplevel jelek</h1>
+      <nav className="bg-white shadow dark:bg-slate-900">
+        <div className="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
+            <a href="./index.html" className="text-gray-800 transition-colors duration-300 transform dark:text-gray-200 border-b-2 border-green-500 mx-1.5 sm:mx-6">home</a>
+    
+            <a href="./quiz.html" className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-green-500 mx-1.5 sm:mx-6">Pelajaran</a>
+    
+            <a href="./tutor.html" className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-green-500 mx-1.5 sm:mx-6">Tanya</a>
+    
+            <a href="./forum.html" className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-green-500 mx-1.5 sm:mx-6">Forum</a>
+
+            <a href="./premium.html" className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-green-500 mx-1.5 sm:mx-6">Premium</a>
+            
+            <a href="./login.html" className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-green-500 mx-1.5 sm:mx-6">Login</a>
+
+            <a href="./register.html" className="border-b-2 border-transparent hover:text-gray-800 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-green-500 mx-1.5 sm:mx-6">Register</a>
+        </div>
+    </nav>
+
       </main>
     </div>
   )

@@ -28,14 +28,14 @@ export default function Login() {
 
                 </p>
 
-                <form action="" className="bg-slate-800 mt-6 mb-0 space-y-4 rounded-lg p-8 mt-10 shadow-2xl">
+                <form action="" className="bg-slate-800 mb-0 space-y-4 rounded-lg p-8 mt-10 shadow-2xl">
                     <p className="text-lg font-medium text-gray-200">Sign in to your account</p>
 
                     <div>
                     <label htmlFor="email" className="text-gray-200 text-sm font-medium">Email</label>
 
                     <div className="relative mt-1">
-                        <input type="email" id="email" className="w-full rounded-lg border-gray-200 bg-slate-200 p-4 pr-12 text-sm shadow-sm"
+                        <input type="email" id="email" className="w-full rounded-lg border-gray-200 bg-slate-200 p-4 pr-12 text-sm shadow-sm focus:ring-blue-400"
                         placeholder="Enter email" />
 
                         <span className="absolute inset-y-0 right-4 inline-flex items-center">

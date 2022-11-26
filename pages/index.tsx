@@ -15,7 +15,7 @@ export default function Home() {
             <Link href="/" className="transition-colors duration-300 transform text-gray-200 border-b-2 border-green-500 mx-1.5 sm:mx-6">Home</Link>
             <Link href="/premium" className="border-b-2 border-transparent transition-colors duration-300 transform hover:text-gray-200 hover:border-green-500 mx-1.5 sm:mx-6">Premium</Link>
             <Link href="/login" className="relative border-b-2 border-transparent transition-colors duration-300 transform hover:text-gray-200 hover:border-green-500 mx-1.5 sm:mx-6">Login</Link>
-            <Link href="./register.html" className="border-b-2 border-transparent transition-colors duration-300 transform hover:text-gray-200 hover:border-green-500 mx-1.5 sm:mx-6">Register</Link>
+            <Link href="/register" className="border-b-2 border-transparent transition-colors duration-300 transform hover:text-gray-200 hover:border-green-500 mx-1.5 sm:mx-6">Register</Link>
           </div>
         </nav>
         <section className="bg-slate-900 text-white">
